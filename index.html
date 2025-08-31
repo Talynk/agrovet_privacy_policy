@@ -2,13 +2,339 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agrovet Privacy Policy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .header {
+      background: linear-gradient(135deg, #63e067 0%, #4ade52 100%);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-bottom: 0;
+    }
+
+    .content {
+      padding: 40px 30px;
+    }
+
+    .last-updated {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      border-left: 4px solid #63e067;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      animation: fadeIn 0.6s ease-out;
+    }
+
+    .section h2 {
+      color: #63e067;
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e9ecef;
+    }
+
+    .section h3 {
+      color: #4ade52;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+
+    .section p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .section ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    .section li {
+      margin-bottom: 8px;
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, #e8ffe9 0%, #f0fff0 100%);
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 5px solid #63e067;
+      margin: 20px 0;
+    }
+
+    .contact-section {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .contact-section h2 {
+      color: #63e067;
+      margin-bottom: 15px;
+    }
+
+    .contact-link {
+      display: inline-block;
+      background: linear-gradient(135deg, #63e067 0%, #4ade52 100%);
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .contact-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(99, 224, 103, 0.3);
+    }
+
+    .data-types {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .data-card {
+      background: white;
+      border: 2px solid #e9ecef;
+      border-radius: 10px;
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .data-card:hover {
+      border-color: #63e067;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .data-card h4 {
+      color: #63e067;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+      
+      .header h1 {
+        font-size: 2rem;
+      }
+      
+      .content {
+        padding: 30px 20px;
+      }
+      
+      .data-types {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Agrovet Privacy Policy</h1>
-  <p>Agrovet respects your privacy. We do not collect personal information unless required for providing better services (such as login and order tracking).</p>
-  <p>Any data collected is used only for Agrovet app functionality and is not shared with third parties.</p>
-  <p>Agrovet uses network access only to display products, process orders, and deliver agricultural advice.</p>
-  <p>If you have questions about this policy, please contact us at: <a href="smartlinkappscompany@gmail.com"> Here</a></p>
+  <div class="container">
+    <div class="header">
+      <h1>Agrovet Privacy Policy</h1>
+      <p>Your privacy matters to us. Learn how we protect your data.</p>
+    </div>
+
+    <div class="content">
+      <div class="last-updated">
+        <strong>Last Updated:</strong> August 31, 2025
+      </div>
+
+      <div class="section">
+        <h2>Our Commitment to Privacy</h2>
+        <p>At Agrovet, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our agricultural services platform.</p>
+        
+        <div class="highlight-box">
+          <p><strong>Key Principle:</strong> We only collect information that is necessary to provide you with excellent agricultural services and support. Your data is never sold or shared with third parties for marketing purposes.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Information We Collect</h2>
+        
+        <div class="data-types">
+          <div class="data-card">
+            <h4>Contact Information</h4>
+            <p>Name and phone number when you contact us via WhatsApp for product inquiries and support.</p>
+          </div>
+          
+          <div class="data-card">
+            <h4>Usage Data</h4>
+            <p>Basic app usage patterns and product viewing data to improve our catalog and services.</p>
+          </div>
+          
+          <div class="data-card">
+            <h4>Communication Records</h4>
+            <p>WhatsApp conversation history for providing better customer support and follow-up services.</p>
+          </div>
+          
+          <div class="data-card">
+            <h4>Device Information</h4>
+            <p>Basic device and network information to ensure app compatibility and optimal performance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>How We Use Your Information</h2>
+        <h3>Primary Uses</h3>
+        <ul>
+          <li><strong>Product Information:</strong> Displaying our agricultural product catalog and specifications</li>
+          <li><strong>Customer Support:</strong> Responding to your WhatsApp inquiries and providing product recommendations</li>
+          <li><strong>Service Improvement:</strong> Understanding which products interest users most to optimize our offerings</li>
+          <li><strong>Communication:</strong> Following up on your inquiries and providing relevant product updates</li>
+        </ul>
+
+        <h3>App Functionality</h3>
+        <ul>
+          <li>Enabling smooth browsing of our product catalog</li>
+          <li>Facilitating easy contact through WhatsApp integration</li>
+          <li>Improving app performance and user experience</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Data Protection & Security</h2>
+        <p>We implement industry-standard security measures to protect your information:</p>
+        <ul>
+          <li><strong>Encryption:</strong> All sensitive data is encrypted both in transit and at rest</li>
+          <li><strong>Access Control:</strong> Strict access controls ensure only authorized personnel can access your data</li>
+          <li><strong>Regular Audits:</strong> We conduct regular security assessments and updates</li>
+          <li><strong>Secure Servers:</strong> Data is stored on secure, monitored servers with backup systems</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Data Sharing & Third Parties</h2>
+        <p>We do not sell, rent, or share your personal information with third parties for marketing purposes. Limited data sharing occurs only in these specific circumstances:</p>
+        <ul>
+          <li><strong>WhatsApp Communications:</strong> Your messages are processed through WhatsApp's secure platform for customer support</li>
+          <li><strong>Legal Requirements:</strong> When required by law or to protect our legal rights</li>
+          <li><strong>Service Improvement:</strong> Anonymized usage data may be analyzed to improve our product catalog and app performance</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Your Rights & Controls</h2>
+        <p>You have the following rights regarding your personal data:</p>
+        <ul>
+          <li><strong>Access:</strong> Request information about what data we have collected through your app usage</li>
+          <li><strong>Correction:</strong> Update any contact information you've provided via WhatsApp</li>
+          <li><strong>Deletion:</strong> Request deletion of your contact information and conversation history</li>
+          <li><strong>Opt-out:</strong> Stop receiving follow-up messages by informing us through WhatsApp</li>
+          <li><strong>Data Portability:</strong> Request a copy of your inquiry history in a standard format</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Network Access & Permissions</h2>
+        <p>Agrovet requires network access for the following essential functions:</p>
+        <ul>
+          <li>Displaying current product catalog and pricing</li>
+          <li>Processing and tracking orders in real-time</li>
+          <li>Delivering up-to-date agricultural advice and weather information</li>
+          <li>Synchronizing data across your devices</li>
+          <li>Providing customer support and technical assistance</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Data Retention</h2>
+        <p>We retain your personal information only as long as necessary to:</p>
+        <ul>
+          <li>Provide our services to you</li>
+          <li>Comply with legal obligations</li>
+          <li>Resolve disputes and enforce agreements</li>
+        </ul>
+        <p>Account information is typically retained for 3 years after account closure, while transaction records may be kept longer for legal compliance.</p>
+      </div>
+
+      <div class="section">
+        <h2>Children's Privacy</h2>
+        <p>Agrovet is designed for adult users in the agricultural sector. We do not knowingly collect personal information from children under 16. If we become aware that we have collected such information, we will take steps to delete it promptly.</p>
+      </div>
+
+      <div class="section">
+        <h2>Updates to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes through the app or via email. Your continued use of Agrovet after such changes constitutes acceptance of the updated policy.</p>
+      </div>
+
+      <div class="contact-section">
+        <h2>Questions or Concerns?</h2>
+        <p>If you have any questions about this Privacy Policy or how we handle your data, please don't hesitate to reach out to us.</p>
+        <a href="mailto:smartlinkappscompany@gmail.com" class="contact-link">Contact Our Privacy Team</a>
+        <p style="margin-top: 15px; font-size: 0.9rem; color: #666;">
+          We typically respond to privacy inquiries within 48 hours.
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
